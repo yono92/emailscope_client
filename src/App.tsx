@@ -29,7 +29,7 @@ const App: React.FC = () => {
 
   return (
     <div className={`flex flex-col min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
-      <header className="w-full bg-gray-800 p-4 text-center">
+      <header className={`w-full p-4 text-center ${darkMode ? 'bg-gray-800 text-white' : 'bg-gray-300 text-gray-900'}`}>
         <h1 className="text-3xl font-bold">EmailScope</h1>
       </header>
       <main className="flex flex-grow items-center justify-center w-full">
